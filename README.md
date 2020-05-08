@@ -1,2 +1,2 @@
 # JetBrainsProjects
-Repositório dos projetos desenvolvidos em Python no JetBrains Academy
+Repositório dos projetos desenvolvidos no JetBrains Academy visando aprender a programar em Python.
