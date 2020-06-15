@@ -146,7 +146,7 @@ def main():
                11: matriz[6], 21: matriz[7], 31: matriz[8]}
     game.print_m(display)
     turn = 'X'
-    for i in range(10):
+    for _i in range(10):
         position = input('Enter the coordinates: ').split()
         check, msg = game.check_position(position, turn)
         while not check:
