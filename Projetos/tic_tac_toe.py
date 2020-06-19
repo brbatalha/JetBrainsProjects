@@ -70,8 +70,6 @@ class TicTacToe:
                 result = 'Impossible'
             else:
                 result = 'O wins'
-        # if count_ > 0 and result_x == 0 and result_o == 0:
-            # result = 'Game not finished'
         if (count_x - count_o) >= 2 or (count_o - count_x) >= 2:
             result = 'Impossible'
         if count_ == 0 and result_x == 0 and result_o == 0:
@@ -136,10 +134,6 @@ class TicTacToe:
 
 def main():
     game = TicTacToe()
-    """starting_game = input('Enter cells: ').strip().upper().replace('_', ' ')
-    matriz = []
-    for i in starting_game:
-        matriz.append(i)"""
     matriz = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
     display = {13: matriz[0], 23: matriz[1], 33: matriz[2],
                12: matriz[3], 22: matriz[4], 32: matriz[5],
